@@ -1,7 +1,7 @@
 {
   "patches": {
     "version": "v1.23.0",
-    "url": "https://github.com/crimera/piko/releases/download/v1.23.0/patches.json"
+    "url": "https://github.com/crimera/piko/releases/download/v1.23.0/revanced-patches-1.23.0.jar"
   },
   "integrations": {
     "version": "v1.13.0",

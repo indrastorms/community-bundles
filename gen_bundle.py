@@ -7,8 +7,10 @@ def get_latest_release(repo_url):
     if response.status_code == 200:
         data = response.json()
         version = data['tag_name']
-        asset_url = data['assets'][0]['browser_download_url']
-        return version, asset_url
+        for asset in data["assets"]:
+            if asset["browser_download_url"].find(".jar") != -1 or asset["browser_download_url"].find(".apk") != -1:
+                asset_url = asset['browser_download_url']
+                return version, asset_url
     else:
         return None, None
 
@@ -17,7 +19,6 @@ def main():
         sources = json.load(file)
 
     for source in sources:
-        print()
         patches_version, patches_asset_url = get_latest_release(sources.get(source).get('patches'))
         integration_version, integration_asset_url = get_latest_release(sources.get(source).get('integration'))
         info_dict = {
