@@ -3,6 +3,8 @@ name: update bundle.json
 on:
   workflow_dispatch:
   push:
+  schedule:
+    - cron: '0 0 * * *'
 
 jobs:
   update_bundle:
@@ -10,6 +12,7 @@ jobs:
 
     steps:
     - name: Checkout code
+      continue-on-error: true
       uses: actions/checkout@v4
       with:
           persist-credentials: false # otherwise, the token used is the GITHUB_TOKEN, instead of your personal access token.
