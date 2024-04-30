@@ -6,5 +6,10 @@
   "dropped-patches": {
     "patches": "https://api.github.com/repos/indrastorms/dropped-patches",
     "integration": "https://api.github.com/repos/revanced/revanced-integrations"
+  },
+  "revanced": {
+    "patches": "https://api.github.com/repos/revanced/revanced-patches",
+    "integration": "https://api.github.com/repos/revanced/revanced-integrations",
+    "prerelease": true
   }
 }
