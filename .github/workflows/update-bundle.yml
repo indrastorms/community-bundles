@@ -23,7 +23,7 @@ jobs:
       
     - name: Run Python script
       run: |
-        pip install requests
+        pip install httpx
         python gen_bundle.py
       
     - name: Commit and push changes
