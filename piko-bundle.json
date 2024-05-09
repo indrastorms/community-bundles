@@ -1,10 +1,10 @@
 {
   "patches": {
-    "version": null,
-    "url": null
+    "version": "v1.27.0",
+    "url": "https://github.com/crimera/piko/releases/download/v1.27.0/revanced-patches-1.27.0.jar"
   },
   "integrations": {
-    "version": null,
-    "url": null
+    "version": "v1.17.0",
+    "url": "https://github.com/crimera/revanced-integrations/releases/download/v1.17.0/revanced-integrations-1.17.0.apk"
   }
 }

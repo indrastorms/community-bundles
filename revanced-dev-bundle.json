@@ -1,10 +1,10 @@
 {
   "patches": {
-    "version": null,
-    "url": null
+    "version": "v4.8.0-dev.14",
+    "url": "https://github.com/ReVanced/revanced-patches/releases/download/v4.8.0-dev.14/revanced-patches-4.8.0-dev.14.jar"
   },
   "integrations": {
-    "version": null,
-    "url": null
+    "version": "v1.9.0-dev.9",
+    "url": "https://github.com/ReVanced/revanced-integrations/releases/download/v1.9.0-dev.9/revanced-integrations-1.9.0-dev.9.apk"
   }
 }
