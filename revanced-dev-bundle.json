@@ -1,7 +1,7 @@
 {
   "patches": {
-    "version": "v4.8.0-dev.17",
-    "url": "https://github.com/ReVanced/revanced-patches/releases/download/v4.8.0-dev.17/revanced-patches-4.8.0-dev.17.jar"
+    "version": "v4.8.0-dev.18",
+    "url": "https://github.com/ReVanced/revanced-patches/releases/download/v4.8.0-dev.18/revanced-patches-4.8.0-dev.18.jar"
   },
   "integrations": {
     "version": "v1.9.0-dev.10",
