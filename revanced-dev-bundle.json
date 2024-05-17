@@ -1,10 +1,10 @@
 {
   "patches": {
-    "version": "v4.8.0-dev.18",
-    "url": "https://github.com/ReVanced/revanced-patches/releases/download/v4.8.0-dev.18/revanced-patches-4.8.0-dev.18.jar"
+    "version": "v4.8.0-dev.20",
+    "url": "https://github.com/ReVanced/revanced-patches/releases/download/v4.8.0-dev.20/revanced-patches-4.8.0-dev.20.jar"
   },
   "integrations": {
-    "version": "v1.9.0-dev.12",
-    "url": "https://github.com/ReVanced/revanced-integrations/releases/download/v1.9.0-dev.12/revanced-integrations-1.9.0-dev.12.apk"
+    "version": "v1.9.0-dev.13",
+    "url": "https://github.com/ReVanced/revanced-integrations/releases/download/v1.9.0-dev.13/revanced-integrations-1.9.0-dev.13.apk"
   }
 }
